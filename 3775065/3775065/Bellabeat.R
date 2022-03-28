@@ -29,3 +29,5 @@ ggplot(data=daily_activity, aes(x = ActivityDate, y = Calories)) + geom_bar(stat
 ggplot(data=daily_activity, aes(x = ActivityDate, y = TotalSteps)) + geom_bar(stat = "identity")
 
 ggplot(data=daily_activity, aes(x = Id, y = Calories)) + geom_bar(stat = 'Identity')
+
+ggplot(data=daily_activity, aes(x = Id, y = TotalSteps)) + geom_bar(stat = 'Identity')
